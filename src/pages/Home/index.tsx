@@ -14,9 +14,13 @@ const Home =() => {
                 <h1>Conheça o melhor catálogo de produtos</h1>
                 <p>Ajudaremos você a encontrar os melhores produtos disponíveis no mercado.</p>
                </div>
-               <Link to="/products">  
+               
+               <div>  
+                 <Link to="/products">  
                   <ButtonIcon /> 
                 </Link>
+                </div>
+             
               
             </div>
             
