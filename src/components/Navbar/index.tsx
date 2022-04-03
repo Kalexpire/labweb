@@ -5,10 +5,10 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar =() => {
     return (
        
-       <nav className="navbar  navbar-expand-md navbar-dark bg-primary main-nav">
+       <nav className="navbar  navbar-expand-md navbar-light bg-primary main-nav">
         <div className ="container-fluid">
           <Link to="/" className="nav-logo-text">
-            <h4>DS Catalog</h4>
+            <h4>CarrosTop</h4>
           </Link>
 
           <button
@@ -25,14 +25,12 @@ const Navbar =() => {
           <div className ="collapse navbar-collapse" id="dscatalog-navbar">
             <ul className ="navbar-nav offset-md-2 main-menu">
               <li>
-                <NavLink to="/">HOME</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="products">CATÁLOGO</NavLink>
+                <NavLink to="products">Catálogo</NavLink>
               </li>
-              <li>
-                <NavLink to="admin">ADMIN</NavLink>
-              </li>
+             
             </ul>
           </div>
         </div>

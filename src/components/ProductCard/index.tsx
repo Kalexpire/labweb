@@ -1,21 +1,25 @@
 import './styles.css';
 
-import ProductImg from 'assets/images/product.png';
-import ProductPrice from 'components/ProductPrice';
+import ProductImg from 'assets/images/car.png';
 
 const ProductCard = () => {
 
     return(
-        <div className="base-card product-card">
-            <div className="card-top-container">
+        <div className='second-card product-card'>
+            <div className='card-top-container'>
                 <img src={ProductImg} alt="Imagem do Produto" />
                  </div>
 
                 <div className="card-bottom-container">
-                    <h6>Nome do Produto</h6>
-                    <ProductPrice/>
+                    <h6>Audi Supra TT</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupidate, nisi</p>
+                <div className="btn2-container">
+                    <button className="btn2">
+                    <h5>Comprar</h5>
+                    </button>
+                </div>
+                    
              </div>
-            
         </div>
     );
 }
